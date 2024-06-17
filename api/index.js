@@ -5,7 +5,7 @@ const Mailjet = require("node-mailjet");
 require("dotenv").config();
 // MailerSend
 const app = express();
-const port = 9000;
+const port = 3002;
 
 app.use(express.static(__dirname + "/public"));
 
@@ -23,3 +23,5 @@ app.post("/send-email", async (req, res) => {});
 app.listen(port, () => {
   console.log(`Server läuft auf http://localhost:${port}`);
 });
+
+module.exports = express;
