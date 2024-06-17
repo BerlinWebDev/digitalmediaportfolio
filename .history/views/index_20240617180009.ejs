@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Digitalmedia - We Take Care of Your Brand</title>
+    <meta name="title" content="Digitalmedia - We Take Care of Your Brand" />
+    <meta name="description" content="" />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css
+  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  --></head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="assets/images/logo.svg"
+            width="205"
+            height="40"
+            alt="Digitalmedia home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#process" class="navbar-link">Was Bieten Wir An</a>
+            </li>
+
+            <li>
+              <a href="#works" class="navbar-link">Referenzen</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="nav-open-btn"
+          aria-label="toggle menu"
+          data-nav-toggle-btn
+        >
+          <ion-icon
+            name="menu-outline"
+            aria-hidden="true"
+            class="menu-icon"
+          ></ion-icon>
+          <ion-icon
+            name="close-outline"
+            aria-hidden="true"
+            class="close-icon"
+          ></ion-icon>
+        </button>
+
+        <div class="overlay" data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" aria-label="hero" id="hero">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 title hero-title">
+                Wir gestalten Ihren Online-Auftritt
+              </h1>
+
+              <p class="hero-text">
+                Unsere Agentur entwickelt maßgeschneiderte Webseiten, die genau
+                auf die Bedürfnisse unserer Kunden und ihr Geschäft
+                zugeschnitten sind. Mit einem individuellen Ansatz schaffen wir
+                hochwertige Online-Präsenzen, die effektiv deren Marke
+                repräsentieren.
+              </p>
+
+              <div class="input-wrapper">
+                <form id="emailForm">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Ihre Email-Adresse"
+                    class="input-field"
+                  />
+
+                  <button type="submit" class="btn btn-primary">
+                    Kontaktieren Sie Uns Jetzt!
+                  </button>
+                </form>
+              </div>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="assets/images/hero-banner.png"
+                width="835"
+                height="960"
+                alt="hero banner"
+                class="w-100"
+                data-parallax
+                data-parallax-speed="10"
+              />
+
+              <img
+                src="assets/images/js.png"
+                width="100"
+                height="100"
+                alt="YouTube"
+                class="shape shape-1"
+                data-parallax
+                data-parallax-speed="15"
+              />
+
+              <img
+                src="assets/images/html5.png"
+                width="120"
+                height="120"
+                alt="Twitter"
+                class="shape shape-2"
+                data-parallax
+                data-parallax-speed="25"
+              />
+
+              <img
+                src="assets/images/react.png"
+                width="150"
+                height="150"
+                alt="Instagram"
+                class="shape shape-3"
+                data-parallax
+                data-parallax-speed="40"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #PROCESS
+      -->
+
+        <section
+          class="section process text-center"
+          id="process"
+          aria-labelledby="process-label"
+        >
+          <div class="container">
+            <h2 class="h2 title section-title" id="process-label">
+              Was Bieten Wir An
+            </h2>
+
+            <p class="section-text">
+              Ehrliche und transparente Arbeit steht bei uns an erster Stelle,
+              und wir leben diese Werte in jedem Projekt. Wir sind hier, um Sie
+              mit unserer Expertise zu unterstützen. Kontaktieren Sie uns, und
+              gemeinsam schaffen wir eine moderne und ansprechende Lösung für
+              Ihr Unternehmen zu einem fairen Preis-Leistungsverhältnis.
+            </p>
+
+            <div class="wrapper">
+              <figure class="process-banner">
+                <img
+                  src="assets/images/process-banner.png"
+                  width="734"
+                  height="854"
+                  loading="lazy"
+                  alt="process banner"
+                  class="w-100"
+                />
+              </figure>
+
+              <ul class="grid-list">
+                <li class="process-item">
+                  <img
+                    src="assets/images/process-icon-1.png"
+                    width="60"
+                    height="60"
+                    loading="lazy"
+                    alt=""
+                    class="item-icon"
+                  />
+
+                  <h3 class="h3 title item-title">Ideenfindung</h3>
+
+                  <p class="item-text">
+                    Bei der Ideenfindung ist es wichtig, die Bedürfnisse und
+                    Wünsche der Kunden zu berücksichtigen, um innovative
+                    Lösungen zu entwickeln, die ihre Anforderungen erfüllen und
+                    sie begeistern.
+                  </p>
+                </li>
+
+                <li class="process-item">
+                  <img
+                    src="assets/images/process-icon-2.png"
+                    width="60"
+                    height="60"
+                    loading="lazy"
+                    alt=""
+                    class="item-icon"
+                  />
+
+                  <h3 class="h3 title item-title">Budget</h3>
+
+                  <p class="item-text">
+                    Je nach Budget beraten wir Sie gerne erarbeiten gemeinsam
+                    ein Konzept für Ihre Website.
+                  </p>
+                </li>
+
+                <li class="process-item">
+                  <img
+                    src="assets/images/process-icon-3.png"
+                    width="60"
+                    height="60"
+                    loading="lazy"
+                    alt=""
+                    class="item-icon"
+                  />
+
+                  <h3 class="h3 title item-title">Performance</h3>
+
+                  <p class="item-text">
+                    Die Performance einer Webseite spielt eine entscheidende
+                    Rolle für die Benutzererfahrung, daher ist es wichtig,
+                    kontinuierlich daran zu arbeiten, sie zu verbessern.
+                  </p>
+                </li>
+
+                <li class="process-item">
+                  <img
+                    src="assets/images/process-icon-4.png"
+                    width="60"
+                    height="60"
+                    loading="lazy"
+                    alt=""
+                    class="item-icon"
+                  />
+
+                  <h3 class="h3 title item-title">Transparenz</h3>
+
+                  <p class="item-text">
+                    Klare Kommunikation und Transparenz gegenüber dem Kunden
+                    bezüglich Prozessen, Kosten und Zeitrahmen sind essentiell
+                    für eine vertrauensvolle Zusammenarbeit.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #WORK
+      -->
+
+        <section
+          class="section works text-center"
+          aria-labelledby="works-label"
+          id="works"
+        >
+          <div class="container">
+            <h2 class="h2 title section-title">Unsere letzten Projekte</h2>
+
+            <p class="section-text"></p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="work-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 580; --height: 620"
+                  >
+                    <img
+                      src="assets/images/work-1.jpg"
+                      width="580"
+                      height="620"
+                      loading="lazy"
+                      alt="Product Design"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">Netflix</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="work-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 580; --height: 620"
+                  >
+                    <img
+                      src="./assets/images/work-2.jpg"
+                      width="580"
+                      height="620"
+                      loading="lazy"
+                      alt="App Development"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">App Development</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="work-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 580; --height: 620"
+                  >
+                    <img
+                      src="assets/images/work-3.jpg"
+                      width="580"
+                      height="620"
+                      loading="lazy"
+                      alt="Virtual Reality"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">Virtual Reality</a>
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="section footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="assets/images/logo.svg"
+                width="205"
+                height="40"
+                loading="lazy"
+                alt="Digitalmedia home"
+              />
+            </a>
+
+            <address class="footer-text">Berlin, Deutschland</address>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#process" class="footer-link">Was Bieten Wir An</a>
+            </li>
+
+            <li>
+              <a href="#works" class="footer-link">Referenzen</a>
+            </li>
+
+            <a href="#hero" class="btn btn-primary">Kontaktiere Uns</a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center">
+        <div class="container">
+          <p class="copyright">
+            © Copyright 2019 - 2024 "" Webdesign & Programmierung. All Rights
+            Reserved
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-link">Impressum</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Datenschutz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
