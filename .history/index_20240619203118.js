@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 require("dotenv").config();
 // MailerSend
 const app = express();
-const port = 4000;
+const port = 3002;
 
 app.use(express.static(__dirname + "/public"));
 
